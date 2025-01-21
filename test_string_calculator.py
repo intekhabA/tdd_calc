@@ -1,5 +1,5 @@
 import pytest
-from string_calculator import StringCalculator  # Replace with your filename
+from string_calculator import StringCalculator  # String calculator class
 
 def test_empty_string_returns_zero():
     calculator = StringCalculator()
