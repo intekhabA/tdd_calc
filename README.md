@@ -1,5 +1,5 @@
 # IMPORTANT NOTE:- #
-Please take clone from main branch, instead of main.
+Please take clone from main branch.
 
 
 # tdd_calc
