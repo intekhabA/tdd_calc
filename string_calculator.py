@@ -7,7 +7,7 @@ class calculateString:
 
         delimiter = r"[,\n]"  # Default delimiters: comma or newline
 
-        # Step 4: Support custom delimiter
+        # Step 2: Support custom delimiter
         if numbers.startswith("//"):
             delimiter_end_index = numbers.index("\n")
             custom_delimiter = numbers[2:delimiter_end_index]
@@ -18,7 +18,7 @@ class calculateString:
         number_list = re.split(delimiter, numbers)
         number_list = [int(num) for num in number_list if num]
 
-        # Step 5: Handle negative numbers
+        # Step 3: Handle negative numbers
         negative_numbers = [num for num in number_list if num < 0]
         if negative_numbers:
             raise ValueError(f"Negative numbers not allowed: {', '.join(map(str, negative_numbers))}")
