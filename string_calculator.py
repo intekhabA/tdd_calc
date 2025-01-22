@@ -1,5 +1,5 @@
 import re
-class StringCalculator:
+class calculateString:
     def add(self, numbers: str) -> int:
         """Adds numbers provided in a string format."""
         if not numbers:
